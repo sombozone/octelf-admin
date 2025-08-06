@@ -33,6 +33,16 @@ const VISUALIZATION: AppRouteRecordRaw = {
         roles: ['admin'],
       },
     },
+    {
+      path: 'water-balance',
+      name: 'WaterBalance',
+      component: () => import('@/views/visualization/water-balance/index.vue'),
+      meta: {
+        locale: 'menu.visualization.waterBalance',
+        requiresAuth: true,
+        roles: ['*'],
+      },
+    },
   ],
 };
 

@@ -89,7 +89,7 @@ export async function getUserInfo(): Promise<{ data: UserState }> {
     registrationDate: user.created_at,
     accountId: user.id,
     certification: user.user_metadata?.certification,
-    role: user.user_metadata?.role || 'user',
+    role: user.user_metadata?.role || 'admin', // 默认设置为 admin 角色
   };
 
   return { data: userInfo };

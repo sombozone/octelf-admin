@@ -15,6 +15,7 @@ import localeBasicProfile from '@/views/profile/basic/locale/zh-CN';
 
 import localeDataAnalysis from '@/views/visualization/data-analysis/locale/zh-CN';
 import localeMultiDAnalysis from '@/views/visualization/multi-dimension-data-analysis/locale/zh-CN';
+import localeWaterBalance from '@/views/visualization/water-balance/locale/zh-CN';
 
 import localeSuccess from '@/views/result/success/locale/zh-CN';
 import localeError from '@/views/result/error/locale/zh-CN';
@@ -57,6 +58,7 @@ export default {
   ...localeBasicProfile,
   ...localeDataAnalysis,
   ...localeMultiDAnalysis,
+  ...localeWaterBalance,
   ...localeSuccess,
   ...localeError,
   ...locale403,

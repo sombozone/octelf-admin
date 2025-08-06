@@ -1,0 +1,18 @@
+export default {
+  'menu.visualization.waterBalance': 'Water Balance Query',
+  'waterBalance.title.query': 'Query Conditions',
+  'waterBalance.title.chart': 'Water Balance Tree Map',
+  'waterBalance.title.table': 'Data Details',
+  'waterBalance.form.groupName': 'Group Name',
+  'waterBalance.form.statDate': 'Statistics Date',
+  'waterBalance.form.query': 'Query',
+  'waterBalance.form.reset': 'Reset',
+  'waterBalance.table.id': 'ID',
+  'waterBalance.table.pid': 'Parent ID',
+  'waterBalance.table.name': 'Name',
+  'waterBalance.table.waterVolume': 'Water Volume',
+  'waterBalance.table.waterAmount': 'Amount',
+  'waterBalance.message.querySuccess': 'Query successful',
+  'waterBalance.message.queryFailed': 'Query failed, please try again later',
+  'waterBalance.message.completeForm': 'Please fill in complete query conditions',
+}; 

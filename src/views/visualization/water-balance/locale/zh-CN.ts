@@ -1,0 +1,18 @@
+export default {
+  'menu.visualization.waterBalance': '水平衡查询',
+  'waterBalance.title.query': '查询条件',
+  'waterBalance.title.chart': '水平衡树图',
+  'waterBalance.title.table': '数据明细',
+  'waterBalance.form.groupName': '分组名称',
+  'waterBalance.form.statDate': '统计日期',
+  'waterBalance.form.query': '查询',
+  'waterBalance.form.reset': '重置',
+  'waterBalance.table.id': 'ID',
+  'waterBalance.table.pid': '父级ID',
+  'waterBalance.table.name': '名称',
+  'waterBalance.table.waterVolume': '水量',
+  'waterBalance.table.waterAmount': '金额',
+  'waterBalance.message.querySuccess': '查询成功',
+  'waterBalance.message.queryFailed': '查询失败，请稍后重试',
+  'waterBalance.message.completeForm': '请填写完整的查询条件',
+}; 
